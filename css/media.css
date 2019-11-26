@@ -1,0 +1,825 @@
+/*Start media queries*/
+
+@media screen and (max-width: 768px) {
+  .wide {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  html,
+  body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+  }
+
+  .phone {
+    display: none;
+  }
+
+  .strips {
+    display: block;
+  }
+
+  .button,
+  .navigation {
+    display: none;
+  }
+
+  .top-bar {
+    display: block;
+  }
+
+  .top-bar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+
+  .top-bar ul li {
+    list-style: none;
+    line-height: 16px;
+    padding: 16px 32px;
+    margin: 0 16px;
+  }
+
+  .logo {
+    margin-top: 2rem;
+    position: fixed;
+    left: 3vw;
+    font-family: 'Teko';
+    font-weight: bolder;
+    font-size: 3rem;
+  }
+
+  .landing-text h1 {
+    position: fixed;
+    font-size: 5rem;
+    top: 22vh;
+    right: 19vw;
+    font-family: 'Teko';
+  }
+
+  .landing-text h6 {
+    position: fixed;
+    font-size: 1.3rem;
+    top: -27vh;
+    left: 16vw;
+    padding: 10px 30px;
+  }
+
+  .line {
+    position: fixed;
+    left: 30vw;
+    top: -19vh;
+    background: #000;
+    width: 12rem;
+    height: 1px;
+  }
+
+  /*     MY PROJECTS    */
+
+  .projects {
+    margin-top: 2rem;
+    position: fixed;
+    right: 3vw;
+    font-size: 1.3rem;
+  }
+  /*     SERVICES    */
+
+  .services-wide ul {
+    list-style: none;
+    position: fixed;
+    left: 5%;
+    bottom: 3%;
+    padding: 10px 10px;
+  }
+
+  .services-wide ul li {
+    font-size: 1.5rem;
+    margin: 24px 0;
+  }
+
+  .contact-wide {
+    padding: 10px 30px;
+    font-size: 1.3rem;
+    position: fixed;
+    left: 10vw;
+    top: 45vh;
+    transform: rotate(-90deg);
+  }
+
+  .about-me-wide {
+    font-size: 1.3rem;
+    padding: 10px 30px;
+    position: fixed;
+    right: 10vw;
+    top: 45vh;
+    transform: rotate(90deg);
+  }
+
+  .media-wide ul {
+    list-style: none;
+    position: fixed;
+    right: 5%;
+    bottom: 3%;
+    padding: 10px 10px;
+  }
+
+  .media-wide ul li {
+    font-size: 1.5rem;
+    margin: 24px 0;
+  }
+  .about-page {
+    width: 22vw;
+  }
+
+  .about-details-page {
+    position: fixed;
+    width: 40vw;
+    z-index: 0;
+    top: 40vh;
+    right: 29vw;
+  }
+
+  .my-project-wide {
+    position: fixed;
+    width: 60vw;
+    height: 60vh;
+    z-index: 0;
+    top: 15vh;
+    right: 20vw;
+  }
+
+  .project {
+    font-family: 'Teko';
+  }
+
+  .project a {
+    color: dimgray;
+  }
+
+  .project a:hover {
+    color: #e26241;
+  }
+
+  .project-1 {
+    transform: rotate(90deg);
+    font-size: 3rem;
+    position: fixed;
+    top: 38%;
+    left: 58%;
+  }
+
+  .project-2 {
+    font-size: 4rem;
+    position: fixed;
+    top: 35%;
+    left: 40%;
+  }
+
+  .project-3 {
+    font-size: 3rem;
+    font-weight: 100;
+    position: fixed;
+    top: 40%;
+    left: 45%;
+  }
+
+  .project-4 {
+    transform: rotate(90deg);
+    font-size: 4rem;
+    font-weight: 400;
+    position: fixed;
+    top: 50%;
+    left: 45%;
+  }
+
+  .project-5 {
+    font-size: 2.5rem;
+    font-weight: 400;
+    position: fixed;
+    top: 32%;
+    left: 30%;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1440px) {
+  html,
+  body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+  }
+
+  p {
+    font-size: 1.4rem;
+    font-weight: 300;
+    margin: 1rem;
+  }
+
+  .phone {
+    display: none;
+  }
+
+  .strips {
+    display: block;
+  }
+
+  .button,
+  .navigation {
+    display: none;
+  }
+
+  .top-bar {
+    display: block;
+  }
+
+  .top-bar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+
+  .top-bar ul li {
+    list-style: none;
+    line-height: 16px;
+    padding: 16px 32px;
+    margin: 0 16px;
+  }
+
+  .logo {
+    margin-top: 2rem;
+    position: fixed;
+    left: 3vw;
+    font-family: 'Teko';
+    font-weight: bolder;
+    font-size: 3rem;
+  }
+
+  .landing-text h1 {
+    position: fixed;
+    font-size: 5rem;
+    top: 22vh;
+    right: 19vw;
+    font-family: 'Teko';
+  }
+
+  .landing-text h6 {
+    position: fixed;
+    font-size: 1.3rem;
+    top: -27vh;
+    left: 16vw;
+    padding: 10px 30px;
+  }
+
+  .line {
+    position: fixed;
+    left: 28vw;
+    top: -19vh;
+    background: #000;
+    width: 20rem;
+    height: 1px;
+  }
+
+  /*     MY PROJECTS    */
+
+  .projects {
+    margin-top: 2rem;
+    position: fixed;
+    right: 3vw;
+    font-size: 1.3rem;
+  }
+  /*     SERVICES    */
+
+  .services-wide ul {
+    list-style: none;
+    position: fixed;
+    left: 5%;
+    bottom: 3%;
+    padding: 10px 10px;
+  }
+
+  .services-wide ul li {
+    font-size: 2rem;
+    margin: 24px 0;
+  }
+
+  .contact-wide {
+    padding: 10px 30px;
+    font-size: 1.3rem;
+    position: fixed;
+    left: 10vw;
+    top: 45vh;
+    transform: rotate(-90deg);
+  }
+
+  .about-me-wide {
+    font-size: 1.3rem;
+    padding: 10px 30px;
+    position: fixed;
+    right: 10vw;
+    top: 45vh;
+    transform: rotate(90deg);
+  }
+
+  .media-wide ul {
+    list-style: none;
+    position: fixed;
+    right: 5%;
+    bottom: 3%;
+    padding: 10px 10px;
+  }
+
+  .media-wide ul li {
+    font-size: 1.5rem;
+    margin: 24px 0;
+  }
+
+  .about-page {
+    width: 22vw;
+  }
+
+  .about-details-page {
+    position: fixed;
+    width: 40vw;
+    z-index: 0;
+    top: 40vh;
+    right: 29vw;
+  }
+
+  .my-project-wide {
+    position: fixed;
+    width: 60vw;
+    height: 60vh;
+    z-index: 0;
+    top: 15vh;
+    right: 20vw;
+  }
+
+  .project {
+    font-family: 'Teko';
+  }
+
+  .project a {
+    color: dimgray;
+  }
+
+  .project a:hover {
+    color: #e26241;
+  }
+
+  .project-1 {
+    transform: rotate(90deg);
+    font-size: 3rem;
+    position: fixed;
+    top: 38%;
+    left: 55%;
+  }
+
+  .project-2 {
+    font-size: 4rem;
+    position: fixed;
+    top: 35%;
+    left: 40%;
+  }
+
+  .project-3 {
+    font-size: 3rem;
+    font-weight: 100;
+    position: fixed;
+    top: 40%;
+    left: 45%;
+  }
+
+  .project-4 {
+    transform: rotate(90deg);
+    font-size: 4rem;
+    font-weight: 400;
+    position: fixed;
+    top: 50%;
+    left: 45%;
+  }
+
+  .project-5 {
+    font-size: 2.5rem;
+    font-weight: 400;
+    position: fixed;
+    top: 32%;
+    left: 40%;
+  }
+}
+
+@media screen and (min-width: 1440px) and (max-width: 2560px) {
+  html,
+  body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+  }
+
+  .phone {
+    display: none;
+  }
+
+  .strips {
+    display: block;
+  }
+
+  .button,
+  .navigation {
+    display: none;
+  }
+
+  .top-bar {
+    display: block;
+  }
+
+  .top-bar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+
+  .top-bar ul li {
+    list-style: none;
+    line-height: 16px;
+    padding: 16px 32px;
+    margin: 0 16px;
+  }
+
+  .logo {
+    margin-top: 2rem;
+    position: fixed;
+    left: 3vw;
+    font-family: 'Teko';
+    font-weight: bolder;
+    font-size: 3rem;
+  }
+
+  .landing-text h1 {
+    position: fixed;
+    font-size: 5rem;
+    top: 22vh;
+    right: 19vw;
+    font-family: 'Teko';
+  }
+
+  .landing-text h6 {
+    position: fixed;
+    font-size: 1.3rem;
+    top: -27vh;
+    left: 16vw;
+    padding: 10px 30px;
+  }
+
+  .line {
+    position: fixed;
+    left: 24vw;
+    top: -21vh;
+    background: #000;
+    width: 50rem;
+    height: 1px;
+  }
+
+  /*     MY PROJECTS    */
+
+  .projects {
+    margin-top: 2rem;
+    position: fixed;
+    right: 3vw;
+    font-size: 1.3rem;
+  }
+  /*     SERVICES    */
+
+  .services-wide ul {
+    list-style: none;
+    position: fixed;
+    left: 5%;
+    bottom: 3%;
+    padding: 10px 10px;
+  }
+
+  .services-wide ul li {
+    font-size: 1.6rem;
+    margin: 24px 0;
+  }
+
+  .contact-wide {
+    padding: 10px 30px;
+    font-size: 1.3rem;
+    position: fixed;
+    left: 10vw;
+    top: 45vh;
+    transform: rotate(-90deg);
+  }
+
+  .about-me-wide {
+    font-size: 1.3rem;
+    padding: 10px 30px;
+    position: fixed;
+    right: 10vw;
+    top: 45vh;
+    transform: rotate(90deg);
+  }
+
+  .media-wide ul {
+    list-style: none;
+    position: fixed;
+    right: 5%;
+    bottom: 3%;
+    padding: 10px 10px;
+  }
+
+  .media-wide ul li {
+    font-size: 1.6rem;
+    margin: 24px 0;
+  }
+
+  .about-page {
+    width: 22vw;
+  }
+
+  .about-details-page {
+    position: fixed;
+    width: 40vw;
+    z-index: 0;
+    top: 40vh;
+    right: 29vw;
+  }
+
+  .my-project-wide {
+    position: fixed;
+    width: 60vw;
+    height: 60vh;
+    z-index: 0;
+    top: 15vh;
+    right: 20vw;
+  }
+
+  .project {
+    font-family: 'Teko';
+  }
+
+  .project a {
+    color: dimgray;
+  }
+
+  .project a:hover {
+    color: #e26241;
+  }
+
+  .project-1 {
+    transform: rotate(90deg);
+    font-size: 3rem;
+    position: fixed;
+    top: 38%;
+    left: 55%;
+  }
+
+  .project-2 {
+    font-size: 4rem;
+    position: fixed;
+    top: 35%;
+    left: 40%;
+  }
+
+  .project-3 {
+    font-size: 3rem;
+    font-weight: 100;
+    position: fixed;
+    top: 40%;
+    left: 45%;
+  }
+
+  .project-4 {
+    transform: rotate(90deg);
+    font-size: 4rem;
+    font-weight: 400;
+    position: fixed;
+    top: 50%;
+    left: 45%;
+  }
+
+  .project-5 {
+    font-size: 2.5rem;
+    font-weight: 400;
+    position: fixed;
+    top: 32%;
+    left: 40%;
+  }
+}
+
+@media screen and (min-width: 2561px) {
+  html,
+  body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+  }
+
+  .phone {
+    display: none;
+  }
+
+  .strips {
+    display: block;
+  }
+
+  .button,
+  .navigation {
+    display: none;
+  }
+
+  .top-bar {
+    display: block;
+  }
+
+  .top-bar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+
+  .top-bar ul li {
+    list-style: none;
+    line-height: 16px;
+    padding: 16px 32px;
+    margin: 0 16px;
+  }
+
+  .logo {
+    margin-top: 2rem;
+    position: fixed;
+    left: 3vw;
+    font-family: 'Teko';
+    font-weight: bolder;
+    font-size: 4rem;
+  }
+
+  .landing-text h1 {
+    position: fixed;
+    font-size: 5rem;
+    top: 22vh;
+    right: 19vw;
+    font-family: 'Teko';
+  }
+
+  .landing-text h6 {
+    position: fixed;
+    font-size: 1.7rem;
+    top: -25vh;
+    left: 18vw;
+    padding: 10px 30px;
+  }
+
+  .line {
+    position: fixed;
+    left: 24vw;
+    top: -20vh;
+    background: #000;
+    width: 50rem;
+    height: 1px;
+  }
+
+  /*     MY PROJECTS    */
+
+  .projects {
+    margin-top: 2rem;
+    position: fixed;
+    right: 3vw;
+    font-size: 1.7rem;
+  }
+  /*     SERVICES    */
+
+  .services-wide ul {
+    list-style: none;
+    position: fixed;
+    left: 5%;
+    bottom: 3%;
+    padding: 10px 10px;
+  }
+
+  .services-wide ul li {
+    font-size: 3rem;
+    margin: 24px 0;
+  }
+
+  .contact-wide {
+    padding: 10px 30px;
+    font-size: 1.7rem;
+    position: fixed;
+    left: 10vw;
+    top: 45vh;
+    transform: rotate(-90deg);
+  }
+
+  .about-me-wide {
+    font-size: 1.7rem;
+    padding: 10px 30px;
+    position: fixed;
+    right: 10vw;
+    top: 45vh;
+    transform: rotate(90deg);
+  }
+
+  .media-wide ul {
+    list-style: none;
+    position: fixed;
+    right: 5%;
+    bottom: 3%;
+    padding: 10px 10px;
+  }
+
+  .media-wide ul li {
+    font-size: 3rem;
+    margin: 24px 0;
+  }
+
+  .about-page {
+    width: 22vw;
+  }
+
+  .about-details-page {
+    position: fixed;
+    width: 30vw;
+    z-index: 0;
+    top: 40vh;
+    right: 29vw;
+  }
+
+  .my-project-wide {
+    position: fixed;
+    width: 60vw;
+    height: 60vh;
+    z-index: 0;
+    top: 15vh;
+    right: 20vw;
+  }
+
+  .project {
+    font-family: 'Teko';
+  }
+
+  .project a {
+    color: dimgray;
+  }
+
+  .project a:hover {
+    color: #e26241;
+  }
+
+  .project-1 {
+    transform: rotate(90deg);
+    font-size: 3rem;
+    position: fixed;
+    top: 38%;
+    left: 55.5%;
+  }
+
+  .project-2 {
+    font-size: 4rem;
+    position: fixed;
+    top: 33%;
+    left: 50%;
+  }
+
+  .project-3 {
+    font-size: 3rem;
+    font-weight: 100;
+    position: fixed;
+    top: 38%;
+    left: 50%;
+  }
+
+  .project-4 {
+    transform: rotate(90deg);
+    font-size: 4rem;
+    font-weight: 400;
+    position: fixed;
+    top: 44%;
+    left: 49%;
+  }
+
+  .project-5 {
+    font-size: 5rem;
+    font-weight: 400;
+    position: fixed;
+    top: 30%;
+    left: 44%;
+  }
+}
+/*End media queries*/
