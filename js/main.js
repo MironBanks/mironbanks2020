@@ -45,6 +45,13 @@ TweenMax.from('.contact-wide', 1.4, {
   ease: Expo.easeInOut
 });
 
+TweenMax.from('.resume-wide', 1.4, {
+  delay: 1,
+  opacity: 0,
+  y: 40,
+  ease: Expo.easeInOut
+});
+
 TweenMax.from('.tag', 1.4, {
   delay: 1,
   opacity: 0,
@@ -89,3 +96,15 @@ TweenMax.staggerFrom(
   },
   0.2
 );
+TweenMax.staggerFrom(
+  '.arrow-wide',
+  2,
+  {
+    delay: 5.8,
+    opacity: 0,
+    y: -80,
+    ease: Expo.easeInOut
+  },
+  0.2
+);
+console.log("If you can see this you're awesome!");

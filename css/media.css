@@ -727,6 +727,14 @@
     transform: rotate(-90deg);
   }
 
+  .resume-wide {
+    padding: 10px 30px;
+    font-size: 1.7rem;
+    position: fixed;
+    left: 25vw;
+    top: 65vh;
+  }
+
   .about-me-wide {
     font-size: 1.7rem;
     padding: 10px 30px;

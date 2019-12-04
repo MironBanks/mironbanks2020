@@ -176,6 +176,18 @@ header {
   right: 27vw;
 }
 
+.arrow-wide img {
+  width: 80px;
+}
+
+.arrow-wide {
+  transform: rotate(90deg);
+  position: fixed;
+  z-index: 0;
+  top: 60vh;
+  left: 26vw;
+}
+
 /*    ABOUT   */
 
 section {
