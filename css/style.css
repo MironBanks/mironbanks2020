@@ -176,18 +176,6 @@ header {
   right: 27vw;
 }
 
-.arrow-wide img {
-  width: 80px;
-}
-
-.arrow-wide {
-  transform: rotate(90deg);
-  position: fixed;
-  z-index: 0;
-  top: 60vh;
-  left: 26vw;
-}
-
 /*    ABOUT   */
 
 section {
@@ -438,6 +426,202 @@ li {
 }
 
 /*End footer*/
+
+/*START WIDE CONTENT*/
+/*START TOP BAR*/
+.top-bar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.top-bar ul li {
+  list-style: none;
+  line-height: 16px;
+  padding: 16px 32px;
+  margin: 0 16px;
+}
+/*END TOP BAR*/
+
+/*START LOGO*/
+.logo {
+  margin-top: 2rem;
+  position: fixed;
+  left: 3vw;
+  font-family: 'Teko';
+  font-weight: bolder;
+  font-size: 3rem;
+}
+/*END LOGO*/
+
+/*START PROJECT*/
+
+.projects {
+  margin-top: 2rem;
+  position: fixed;
+  right: 3vw;
+  font-size: 1.7rem;
+}
+
+.my-project-wide {
+  position: fixed;
+  width: 60vw;
+  height: 60vh;
+  z-index: 0;
+  top: 15vh;
+  right: 20vw;
+}
+
+.project {
+  font-family: 'Teko';
+}
+
+.project a {
+  color: dimgray;
+}
+
+.project a:hover {
+  color: #e26241;
+}
+
+.project-1 {
+  transform: rotate(90deg);
+  font-size: 3rem;
+  position: fixed;
+  top: 38%;
+  left: 58%;
+}
+
+.project-2 {
+  font-size: 4rem;
+  position: fixed;
+  top: 35%;
+  left: 40%;
+}
+
+.project-3 {
+  font-size: 3rem;
+  font-weight: 100;
+  position: fixed;
+  top: 40%;
+  left: 45%;
+}
+
+.project-4 {
+  transform: rotate(90deg);
+  font-size: 4rem;
+  font-weight: 400;
+  position: fixed;
+  top: 50%;
+  left: 45%;
+}
+
+.project-5 {
+  font-size: 2.5rem;
+  font-weight: 400;
+  position: fixed;
+  top: 32%;
+  left: 30%;
+}
+
+/*END PROJECT*/
+
+/*START SERVICES*/
+
+.services-wide ul {
+  list-style: none;
+  position: fixed;
+  left: 5%;
+  bottom: 3%;
+  padding: 10px 10px;
+}
+
+.services-wide ul li {
+  font-size: 1.5rem;
+  margin: 24px 0;
+}
+
+/*END SERVICES*/
+
+/*START CONTACT*/
+
+.contact-wide {
+  padding: 10px 30px;
+  font-size: 1.7rem;
+  position: fixed;
+  left: 10vw;
+  top: 45vh;
+  transform: rotate(-90deg);
+}
+/*END CONTACT*/
+
+/*START ABOUT ME*/
+
+.about-me-wide {
+  font-size: 1.7rem;
+  padding: 10px 30px;
+  position: fixed;
+  right: 10vw;
+  top: 45vh;
+  transform: rotate(90deg);
+}
+
+.about-page {
+  width: 22vw;
+}
+
+.about-details-page {
+  position: fixed;
+  width: 40vw;
+  z-index: 0;
+  top: 40vh;
+  right: 29vw;
+}
+
+/*END ABOUT ME*/
+
+/*START MEDIA*/
+
+.media-wide ul {
+  list-style: none;
+  position: fixed;
+  right: 5%;
+  bottom: 3%;
+  padding: 10px 10px;
+}
+
+.media-wide ul li {
+  font-size: 1.5rem;
+  margin: 24px 0;
+}
+
+/*END MEDIA*/
+
+/*START RESUME*/
+
+.arrow-wide img {
+  width: 60px;
+}
+
+.arrow-wide {
+  transform: rotate(90deg);
+  position: fixed;
+  z-index: 0;
+  top: 60vh;
+  left: 28vw;
+}
+
+.resume-wide {
+  padding: 10px 30px;
+  font-size: 1.7rem;
+  position: fixed;
+  left: 25vw;
+  top: 65vh;
+}
+
+/*END RESUME*/
+/*END WIDE CONTENT*/
 
 /*       BALL     */
 
