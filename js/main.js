@@ -107,4 +107,5 @@ TweenMax.staggerFrom(
   },
   0.2
 );
+
 console.log("If you can see this you're awesome!");

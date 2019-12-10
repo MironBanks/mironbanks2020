@@ -154,7 +154,11 @@
   }
 
   .landing-text h6 {
-    font-size: 1.3rem;
+    position: fixed;
+    font-size: 1.7rem;
+    top: -27vh;
+    left: 17vw;
+    padding: 10px 30px;
   }
 
   .line {
@@ -223,7 +227,7 @@
   }
 }
 
-@media screen and (min-width: 2561px) {
+@media screen and (min-width: 2560px) {
   html,
   body {
     margin: 0;
@@ -250,20 +254,24 @@
     display: block;
   }
 
+  /*START LOGO*/
   .logo {
     font-size: 4rem;
   }
+  /*END LOGO*/
 
   .landing-text h1 {
+    position: fixed;
     font-size: 5rem;
     top: 22vh;
     right: 19vw;
+    font-family: 'Teko';
   }
 
   .landing-text h6 {
     position: fixed;
     font-size: 1.7rem;
-    top: -25vh;
+    top: -24vh;
     left: 18vw;
     padding: 10px 30px;
   }
