@@ -163,7 +163,7 @@
 
   .line {
     left: 24vw;
-    top: -21vh;
+    top: -21.5vh;
     width: 50rem;
     height: 1px;
   }
@@ -176,7 +176,7 @@
   /*     SERVICES    */
 
   .services-wide ul li {
-    font-size: 1.6rem;
+    font-size: 2rem;
   }
 
   .contact-wide {
@@ -188,7 +188,7 @@
   }
 
   .media-wide ul li {
-    font-size: 1.6rem;
+    font-size: 2rem;
   }
 
   /*START RESUME*/
