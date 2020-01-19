@@ -28,7 +28,6 @@ a {
 }
 a:hover {
 	text-decoration: none;
-	color: #e26241;
 }
 
 p {
@@ -39,7 +38,7 @@ p {
 
 /*Start reusable*/
 
-.about,
+/*.about,
 .services,
 .portfolio,
 .contact {
@@ -88,7 +87,7 @@ p {
 
 /*     HEADER   */
 
-header {
+/*header {
 	width: 100%;
 	height: 100vh;
 	margin-bottom: 20px;
@@ -130,20 +129,9 @@ header {
 	height: 1px;
 }
 
-.img img {
-	width: 32vw;
-}
-
-.img {
-	position: fixed;
-	z-index: 0;
-	top: 19vh;
-	right: 27vw;
-}
-
 /*    ABOUT   */
 
-section {
+/*section {
 	padding: 6rem 0;
 }
 
@@ -211,7 +199,7 @@ li {
 }
 
 /*----------------Start services--------------------*/
-.my-skills {
+/*.my-skills {
 	margin-top: 10rem;
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
@@ -273,7 +261,7 @@ li {
 
 /*---------------Start Portfolio-------------------*/
 
-.portfolio-item {
+/*.portfolio-item {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -344,7 +332,7 @@ li {
 /*---------------End Portfolio--------------------*/
 
 /*---------------Start Contact--------------------*/
-.contact {
+/*.contact {
 	background-color: #f5f5f5;
 }
 .contact .container {
@@ -368,7 +356,7 @@ li {
 /*--------------End Contact--------------------*/
 
 /*Start footer*/
-.copyright {
+/*.copyright {
 	width: 100%;
 	text-align: center;
 	padding: 1.3rem 0;

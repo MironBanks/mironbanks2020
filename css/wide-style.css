@@ -21,11 +21,11 @@
 	background: rgba(0, 0, 0, 0.2);
 	left: 75%;
 }
+/*TOP BAR*/
 
 .top-bar ul {
 	list-style: none;
-	margin-top: 2rem;
-	padding: 0;
+	padding: 2rem 0 0 0;
 	display: flex;
 }
 
@@ -40,15 +40,6 @@
 	margin: 0 16px;
 }
 
-/*.top-bar ul li a{
-	font-family: 'Teko';
-	font-weight: bolder;
-	font-size: 3rem;
-}*/
-
-/*END TOP BAR*/
-
-/*START LOGO*/
 .logo {
 	margin: 0 auto 0 20px;
 	font-family: 'Teko';
@@ -61,4 +52,228 @@
 	font-family: 'Teko';
 	font-weight: bolder;
 	font-size: 3rem;
+}
+
+.btn {
+	position: relative;
+	display: block;
+	overflow: hidden;
+	padding: 14px 40px;
+	transition: 1s all ease;
+}
+
+.btn::before {
+	background: #ff7675;
+	content: '';
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	z-index: -1;
+	transition: all 0.4s ease;
+}
+
+.btn1::before {
+	width: 100%;
+	height: 0;
+	transform: translate(-50%, -50%) rotate(45deg);
+}
+
+.btn1:hover::before {
+	height: 380%;
+}
+
+/*MIDDLE BAR*/
+.middle-bar ul {
+	list-style: none;
+	margin-top: 2rem;
+	padding: 0;
+	height: 70vh;
+	display: flex;
+}
+
+.middle-bar ul li {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	width: 100vw;
+	list-style: none;
+	line-height: 16px;
+	padding: 16px 32px;
+	margin: 0 16px;
+}
+
+.contact-wide {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 0 auto 0 15vw;
+}
+
+.mironbanks-wide {
+	margin: auto auto 30px 0;
+}
+
+.about-me-wide {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 0 15vw 0 auto;
+}
+
+.contact-wide a {
+	font-family: 'Teko';
+	font-size: 2.5rem;
+	position: absolute;
+	display: flex;
+	justify-content: center;
+	padding: 5px 10px;
+	width: 100px;
+	transform: rotate(-90deg);
+}
+
+.mironbanks-wide a {
+	font-family: 'Teko';
+	font-size: 7rem;
+	padding: 10px 50px;
+	height: 70px;
+
+	position: fixed;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+.about-me-wide a {
+	font-family: 'Teko';
+	font-size: 2.5rem;
+	position: absolute;
+	display: flex;
+	justify-content: center;
+	padding: 5px 10px;
+	width: 100px;
+	transform: rotate(90deg);
+}
+
+.mironbanks-wide a {
+	opacity: 0;
+	animation: appear-text 0.0001s linear forwards;
+	animation-delay: 2s;
+}
+
+.mironbanks-wide a:after {
+	content: '';
+	top: 0;
+	left: 0;
+	width: 0%;
+	height: 100%;
+	background: #000;
+	position: absolute;
+	animation: rev-block 1.5s cubic-bezier(0.19, 1, 0.22, 1) forwards;
+	animation-delay: 1.4s;
+}
+
+@keyframes rev-block {
+	0% {
+		left: 0%;
+		width: 0%;
+	}
+
+	50% {
+		left: 0;
+		width: 100%;
+	}
+
+	100% {
+		left: 100%;
+		width: 0%;
+	}
+}
+
+.media-wide ul {
+	list-style: none;
+	position: fixed;
+	right: 5%;
+	bottom: 3%;
+	padding: 10px 10px;
+	z-index: 100;
+}
+
+.media-wide ul li {
+	font-size: 2.7rem;
+	margin: 24px 0;
+}
+
+.services-wide ul {
+	list-style: none;
+	position: fixed;
+	left: 5%;
+	bottom: 3%;
+	padding: 10px 10px;
+}
+
+.services-wide ul li {
+	font-size: 2.7rem;
+	margin: 24px 0;
+}
+
+/* IMAGE FRONT PAGE*/
+
+.img-wide img {
+	width: 32vw;
+}
+
+.img-wide {
+	position: fixed;
+	z-index: 0;
+	top: 19vh;
+	right: 22vw;
+}
+.img-wide img {
+	opacity: 0;
+	animation: appear-text 1s linear forwards;
+	animation-delay: 1.4s;
+}
+
+.img-wide:after {
+	content: '';
+	top: 0;
+	left: 0;
+	width: 0%;
+	height: 100%;
+	background: #b68c70;
+	position: absolute;
+	animation: rev-img 1.5s cubic-bezier(0.19, 1, 0.22, 1) forwards;
+	animation-delay: 1s;
+}
+
+@keyframes appear-text {
+	0% {
+		opacity: 0;
+	}
+
+	100% {
+		opacity: 1;
+	}
+}
+
+@keyframes rev-img {
+	0% {
+		left: 0%;
+		width: 0%;
+	}
+
+	50% {
+		left: 0;
+		width: 32vw;
+	}
+
+	100% {
+		left: 32vw;
+		width: 0%;
+	}
 }
