@@ -27,6 +27,15 @@
       rel="stylesheet"
     />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script>
+  
+  
+  <!-- JQuery -->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+  
+  <!-- TweenMax - GSAP -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.11.4/TweenMax.min.js"></script>
+  
+  
   </head>
   <body>
     <div class="strips">
@@ -82,28 +91,42 @@
       </div>
     </div>
 
-    <div class="my-project-wide wide">
-      <div class="project-1 project">
-        <a target="_blank" href="http://simplefilms.no/">. simplefilms.no</a>
+<div class="projects-wrapper-wide wide">
+    <div class="navigation-wrapper">
+      <div class="project-preview-wrapper">
+        <div class="project-preview"></div>
       </div>
-      <div class="project-2 project">
-        <a target="_blank" href="http://andrewmorrow.no">. andrewmorrow.no</a>
-      </div>
-      <div class="project-3 project">
-        <a target="_blank" href="http://curency.stronazen.pl"
-          >. currency calculator</a
-        >
-      </div>
-      <div class="project-4 project">
-        <a target="_blank" href="http://piggame.stronazen.pl/">. pig game</a>
-      </div>
-      <!--<div class="project-5 project">
-        <a href="#">. checkboxes</a>
-      </div>-->
-      <div class="project-6 project">
-        <a target="_blank" href="https://mb-favnote.netlify.com">. FavNote</a>
-      </div>
+      <ul class="navigation-list">
+        <li class="navigation-item">
+          <a class="navigation-link navigation-link-1" href="#">
+            <span data-text="simplefilms.no">simplefilms.no</span>
+          </a>
+        </li>
+        <div class="project-overlay"></div>
+        <li class="navigation-item">
+          <a class="navigation-link navigation-link-2" href="#">
+            <span data-text="andrewmorrow.no">andrewmorrow.no</span>
+          </a>
+        </li>
+        <li class="navigation-item">
+          <a class="navigation-link navigation-link-3" href="#">
+            <span data-text="FavNote">FavNote</span>
+          </a>
+        </li>
+        <li class="navigation-item">
+          <a class="navigation-link navigation-link-4" href="#">
+            <span data-text="currency calculator">currency calculator</span>
+          </a>
+        </li>
+        <li class="navigation-item">
+          <a class="navigation-link navigation-link-5" href="#">
+            <span data-text="pig game">pig game</span>
+          </a>
+        </li>
+        
+      </ul>
     </div>
+</div>
 
     <div class="top-bar phone">
       <ul>
@@ -189,8 +212,10 @@
       </ul>
     </div>
 
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="js/projects.js"></script>
     <script src="js/main.js"></script>
   </body>
 </html>

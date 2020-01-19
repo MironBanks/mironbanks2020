@@ -1,0 +1,64 @@
+.s-one {
+	position: absolute;
+	width: 1px;
+	height: 100vh;
+	background: rgba(0, 0, 0, 0.2);
+	left: 25%;
+}
+
+.s-two {
+	position: absolute;
+	width: 1px;
+	height: 100vh;
+	background: rgba(0, 0, 0, 0.2);
+	left: 50%;
+}
+
+.s-three {
+	position: absolute;
+	width: 1px;
+	height: 100vh;
+	background: rgba(0, 0, 0, 0.2);
+	left: 75%;
+}
+
+.top-bar ul {
+	list-style: none;
+	margin-top: 2rem;
+	padding: 0;
+	display: flex;
+}
+
+.top-bar ul li {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 100vw;
+	list-style: none;
+	line-height: 16px;
+	padding: 16px 32px;
+	margin: 0 16px;
+}
+
+/*.top-bar ul li a{
+	font-family: 'Teko';
+	font-weight: bolder;
+	font-size: 3rem;
+}*/
+
+/*END TOP BAR*/
+
+/*START LOGO*/
+.logo {
+	margin: 0 auto 0 20px;
+	font-family: 'Teko';
+	font-weight: bolder;
+	font-size: 3rem;
+}
+
+.projects {
+	margin: 0 20px 0 auto;
+	font-family: 'Teko';
+	font-weight: bolder;
+	font-size: 3rem;
+}
